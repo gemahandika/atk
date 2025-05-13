@@ -102,12 +102,6 @@ include '../../../app/models/header_models.php';
                         <span>Buat Pesanan</span>
                     </a>
                 </li><!-- End Buat pesanan Nav -->
-                <li class="nav-item" style="border-bottom: 1px solid rgba(0, 0, 0, 0.3);">
-                    <a class="nav-link collapsed" href="../voucher/index.php">
-                        <i class="ri-shopping-cart-2-line"></i>
-                        <span>Buat Voucher</span>
-                    </a>
-                </li><!-- End Buat pesanan Nav -->
                 <?php if (has_access($allowed_admin)) { ?>
                     <li class="nav-item" style="border-bottom: 1px solid rgba(0, 0, 0, 0.3); position: relative;">
                         <a class="nav-link collapsed" href="../proses_pesanan/index.php">
